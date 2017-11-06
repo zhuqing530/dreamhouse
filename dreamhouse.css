@@ -1,47 +1,37 @@
 
-html {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
 }
 
 #page {
     height: 100%;
-    width: 100%;
     background-image: url('./images/dreamhouse-background.png');
 }
 
-#page #title {
+#title {
+    padding: 100px 0 0 0;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    height: 80%;
-    position: relative;
-    top: 50px;
+    height: 60%;
 }
 
-#page #title .icon {
+#title .image {
     height: 165px;
     width: 425px;
 }
 
-#page #waiting {
+#waiting {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-#page #waiting .loading-panel {
+#waiting .loading-panel {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -49,19 +39,19 @@ body {
     width: 200px;
     height: 50px;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-#page #waiting .loading-panel .process {
+#waiting .loading-panel .process {
     width: 100%;
-    height:100%;
+    height: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     border: 2px solid white;
-    box-shadow: 2px 2px 2px #000;
-    text-shadow: 1px 1px 1px #000;
+    box-shadow: 2px 2px 2px #000000;
+    text-shadow: 1px 1px 1px #000000;
     overflow: hidden;
     border-radius: 15px;
     color: white;
@@ -69,20 +59,19 @@ body {
 
 }
 
-#page #waiting .loading-panel .process .currate {
-   position: absolute;
-    left:0;
+#waiting .loading-panel .process .current {
+    position: absolute;
+    left: 0;
     width: 40%;
-    float: left;
     height: 100%;
     background: #61BE28;
 }
 
-#page #waiting .loading-panel .process .loading-text {
+#waiting .loading-panel .process .loading-text {
     text-align: center;
 }
 
-#page #waiting .tips {
+#waiting .tips {
     position: absolute;
     top: 70px;
     color: white;
@@ -91,7 +80,7 @@ body {
     font-size: 15px;
 }
 
-#page #waiting .loading-panel .loading-text {
+#waiting .loading-panel .loading-text {
     font-size: 20px;
     font-family: monospace;
     z-index: 1;
