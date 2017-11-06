@@ -55,8 +55,8 @@ html, body {
     left: 0;
     width: 40%;
     height: 100%;
-    background: #61BE28;
     border-radius: 25px;
+    background: linear-gradient(to top,#48AE22,#7AC62E)
 }
 
 #loading-panel .process .loading-text {
@@ -65,6 +65,7 @@ html, body {
     font-family: monospace;
     z-index: 1;
     letter-spacing: 5px;
+    text-shadow: 1px 1px 5px #000;
 }
 
 #tips {
@@ -74,10 +75,10 @@ html, body {
     align-items: center;
     justify-content: center;
     color: white;
-    text-shadow: 1px 1px 1px #000000;
     font-family: monospace;
     font-size: 15px;
     letter-spacing: 3px;
+    text-shadow: 1px 1px 7px #000;
 }
 
 
