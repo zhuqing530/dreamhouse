@@ -55,7 +55,7 @@ html, body {
     width: 40%;
     height: 100%;
     border-radius: 25px;
-    background: linear-gradient(to top,#48AE22,#7AC62E)
+    background: linear-gradient(to top, #48AE20, #66C02A, #82D132)
 }
 
 #loading-panel .process .loading-text {
